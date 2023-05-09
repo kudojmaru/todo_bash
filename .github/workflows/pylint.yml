@@ -9,4 +9,5 @@ jobs:
     - name: Главный тест скрипта
       run: |
         chmod +x test_todo.sh
+        chmod +x main.sh
         ./test_todo.sh
